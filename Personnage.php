@@ -107,7 +107,10 @@ public function hydrate(array $donnees)
     }
 }
 
-
+public function nomValide()
+{
+   return !empty($this->nom);
+}
 
 
 
